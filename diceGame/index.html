@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="overlay" class="no-active">
+        <div id="modal">
+            <h2 id="modal-msg"></h2>
+            <button id="reset-btn">Reset</button>
+        </div>  
+    </div>
+    <div class="container">
+        <h1>Dice Game 🎲</h1>
+        <h2 id="turn">Player 1 turn</h2>
+        <div class="players">
+            <div id="player1">
+                <h1>Score: <span id="player1-score">0</span></h1>
+                <div id="player1-dice" class="dice active-dice">-</div>
+            </div>
+            <div id="player2">
+                <h1>Score: <span id="player2-score">0</span></h1>
+                <div id="player2-dice" class="dice">-</div>
+            </div>
+        </div>
+            <button id="roll-btn">🎲</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
