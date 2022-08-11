@@ -2,7 +2,7 @@
 This is the challenge by [Scrimba Frontend Developer Career Path](https://scrimba.com/learn/frontend). 
 
 # Screenshot
-![screenshot](/images/Capture.PNG)
+![screenshot](/diceGame/images/Capture.PNG)
 
 # Demo
 Demo link is [here](https://dice-game11.netlify.app/).
